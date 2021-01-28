@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { MainPageComponent } from './main-page/main-page.component';
 import { PersonajesComponent } from './personajes/personajes.component';
 import { AgregarComponent } from './agregar/agregar.component';
-import { dbzService } from './services/dbz.service';
+import { DbzService } from './services/dbz.service';
 
 
 @NgModule({
@@ -21,7 +21,7 @@ import { dbzService } from './services/dbz.service';
     FormsModule,
   ],
   providers:[
-    dbzService
+    DbzService
   ]
 })
 export class DbzModule { }
