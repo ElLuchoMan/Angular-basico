@@ -1,0 +1,7 @@
+<h3>Agregar</h3>
+<hr>
+<form (ngSubmit)="agregar()">
+    <input name="nombre" [(ngModel)]="nuevo.nombre" type="text" placeholder="nombre">
+    <input name="poder" [(ngModel)]="nuevo.poder" type="number" placeholder="poder">
+    <button type="submit">Agregar</button>
+</form>
